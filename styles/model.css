@@ -98,6 +98,35 @@ main > section{
 .span1{
     color:#FF900E;
 }
+/* sec3 */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 7rem;
+}
+.card{
+    border: 1px solid #FF900E;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.number{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.index{
+    color: #424242;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
 
 /* meadia quary department*/ 
 

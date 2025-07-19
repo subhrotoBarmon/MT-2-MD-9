@@ -135,10 +135,6 @@ main > section{
     .display-flex{
     flex-direction: column;
 }
-    
-}
-/* sec1 */
-@media screen and (max-width : 574px){
     .mdiv1{
         grid-template-columns: repeat(1,1fr);
         margin: 0 auto;
@@ -151,6 +147,26 @@ main > section{
     }
     .mbtn1{
         margin-left: 11rem;
+    }   
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
     }
+}
+@media screen and (min-width : 574px) and (max-width : 950px) {
+    .card-container{
+        grid-template-columns: repeat(2,1fr);
     
+    }
+     .mdiv2{
+    padding-top: 0px;
+    }
+     .mdiv1{
+    padding-bottom: 0px;
+    }
+    .sec1{
+        flex-direction: column;
+        margin-top:7rem;
+        gap:0px;
+    }
+
 }

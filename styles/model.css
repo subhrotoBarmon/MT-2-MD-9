@@ -5,9 +5,11 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin: 0 auto;
 }
+/* header */
 .hnav{
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     
 }
@@ -31,6 +33,14 @@
 }
 .light-color{
     background-color: rgba(255, 144, 14, 0.1);
+    align-items:center;
+}
+.light-button{
+    background-color:#FF900E;
+    font-size: .5rem;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
 }
 
 .hli{
@@ -40,7 +50,78 @@
 .ali{
     text-decoration: none;
 }
+.hh1{
+    font-size: 4rem;
+}
+.hp1{
+    font-size: 1rem;
+}
 .hnav , .baner{
-    max-width: 1920px;
+    max-width: 1100px;
     margin:0 auto;
+}
+.hdiv1{
+    text-align: center;
+}
+.div-image{
+    margin-top: 50px;
+}
+
+/* sec1 */
+main{
+    max-width: 1000px;
+    margin:0 auto;
+} 
+main > section{
+    margin-top: 6rem;
+}
+.sec1{
+    gap:2rem;
+    
+
+}
+.mdiv1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:.7rem;
+}
+.mdiv2{
+    padding-top: 7.5rem;
+}
+.mh1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.mp1{
+    font-size: 1rem;
+}
+.span1{
+    color:#FF900E;
+}
+
+/* meadia quary department*/ 
+
+/* header */
+@media screen and (max-width : 574px){
+    .display-flex{
+    flex-direction: column;
+}
+    
+}
+/* sec1 */
+@media screen and (max-width : 574px){
+    .mdiv1{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+    }
+    .mdiv2{
+    padding-top: 0px;
+    }
+    .sec1{
+        gap: 0;
+    }
+    .mbtn1{
+        margin-left: 11rem;
+    }
+    
 }
